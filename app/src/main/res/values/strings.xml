@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Barcode</string>
+    <string name="editText">Edit Teks</string>
+    <string name="cont_desc">Barcode</string>
+</resources>

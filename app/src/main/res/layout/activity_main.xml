@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+
+    <EditText
+        android:id="@+id/et_text"
+        android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/editText"
+        android:paddingTop="20dp"
+        android:paddingBottom="50dp"/>
+
+    <Button
+        android:id="@+id/buttonGenerate"
+        android:paddingTop="20dp"
+        android:paddingBottom="50dp"
+        android:padding="4dp"
+        android:text="Generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/barcodeImage"
+        android:paddingTop="20dp"
+        android:paddingBottom="50dp"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cont_desc"
+        />
+</LinearLayout>
