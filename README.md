@@ -1,5 +1,5 @@
 # Barcode
-Generate QR Code From EditText Using ZXing
+Generate QR Code From EditText Using <a href="https://github.com/journeyapps/zxing-android-embedded">ZXing
 
 ## Features
 - [✓] Input Text 
